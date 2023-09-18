@@ -1,0 +1,36 @@
+.infoBar {
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  height: 40px;
+  z-index: -1;
+}
+
+.infoBar li, p {
+  list-style: none;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 850px) {
+  .infoBar {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    height: 40px;
+    z-index: -1;
+  } .infoBar li, p {
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 17px;
+  } .infoBar li {
+    float: left;
+  }
+  
+}
