@@ -1,4 +1,4 @@
 # Live version
 
-[Link](https://kennersonhenrique.github.io/products-billboard-frontend/).
+[Link](https://kennersonhenrique.github.io/products-billboard-frontend/)
 
